@@ -16,7 +16,10 @@
 			</svelte:fragment>
 			
 		</AppBar>
+		
 	</svelte:fragment>
 	<!-- Page Route Content -->
+	
 	<slot />
+	<footer class="bg-surface-600 p-4 mt-5"> © Aeon contributors </footer>
 </AppShell>
