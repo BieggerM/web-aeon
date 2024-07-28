@@ -203,7 +203,7 @@
 						<img class="object-cover h-full w-full" src="images/wiki.svg" alt="" />
 					</div>
 					<h3 class=" text-xl font-bold mt-4">Technical Details</h3>
-					<p class=" text-base mt-2 text-balance">
+					<p class=" text-base mt-2 text-balance text-center">
 						For technical details and how-tos, head over to the Wiki
 					</p>
 					<button
