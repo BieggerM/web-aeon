@@ -138,6 +138,7 @@
 						updates of applications. Unlike traditional methods, Flatpak packages applications as
 						self-contained units, including all their necessary dependencies. This offers several
 						benefits for Aeon users.
+						
 					</p>
 				</article>
 			</div>
