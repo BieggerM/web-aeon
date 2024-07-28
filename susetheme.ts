@@ -5,7 +5,7 @@ export const susetheme: CustomThemeConfig = {
     name: 'susetheme',
     properties: {
 		// =~= Theme Properties =~=
-		"--theme-font-family-base": `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace`,
+		"--theme-font-family-base": `systen-ui`,
 		"--theme-font-family-heading": `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace`,
 		"--theme-font-color-base": "0 0 0",
 		"--theme-font-color-dark": "255 255 255",
