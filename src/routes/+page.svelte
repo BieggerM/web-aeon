@@ -42,7 +42,7 @@
 				alt="atomic"
 				image="images/repairing-icon.svg"
 			/>
-			<GlanceCard
+			<GlanceCard 
 				header="Enhanced Security"
 				content="Aeon prioritizes user safety with built-in security features like application sandboxing and hardware encryption, keeping your data and system protected."
 				alt="security shield"
@@ -107,34 +107,92 @@
 <div class="container mx-auto mt-16">
 	<div class="space-y-5 text-left flex flex-col">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-center space-y-5">
-			<div>
-				<h1 class="h1">Gnome Desktop</h1>
-				<p class="text-l text-balance mt-5">
-					Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-				</p>
-			</div>
-
 			<div class="mx-2 flex justify-center items-center">
-				<img class="rounded-2xl" src="images/aeondesktop.png" alt="Gnome" />
-			</div>
-			<div class="mx-2 flex justify-center items-center">
-				<img class="rounded-2xl" src="images/flat.png" alt="Flatpak" />
+				<img class="rounded-2xl shadow-xl h-auto max-w-sm" src="images/aeondesktop.png" alt="Gnome" />
 			</div>
 			<div>
-				<h1 class="h1">Flatpak Applications</h1>
-				<p class="text-l text-balance mt-5">Flatpak is a packaging format that Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				<article class="mx-5">
+					<h1 class="h3">Gnome Desktop</h1>
+					<p class="text-l text-balance text-left mt-5">
+						For a user-friendly and intuitive desktop experience, Aeon leverages the power of GNOME. GNOME is a popular and widely-used desktop environment known for its clean aesthetics, intuitive layout, and focus on user productivity.
+						With GNOME, you'll enjoy a clutter-free workspace. 
+					</p>
+				</article>
+				
+			</div>
+			<div class="mx-2 flex justify-center items-center">
+				<img class="rounded-2xl h-auto max-w-sm" src="images/flat.png" alt="Flatpak" />
 			</div>
 			
+
 			<div>
-				<h1 class="h1">Distrobox</h1>
-				<p class="text-l text-balance mt-5">Flatpak is a packaging format that Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+				<article class="mx-5">
+					<h1 class="h3">Flatpak Applications</h1>
+				<p class="text-l text-balance mt-5 text-left">Aeon provides a streamlined approach to application management through its integration with Flatpak. Flatpak is a modern technology that simplifies the installation and updates of applications. Unlike traditional methods, Flatpak packages applications as self-contained units, including all their necessary dependencies.
+					This offers several benefits for Aeon users.</p>
+				</article>
+				
 			</div>
 			<div class="mx-2 flex justify-center items-center">
-				<img class="rounded-2xl" src="images/distrobox.png" alt="Distrobox" />
+				<img class="rounded-2xl shadow-xl h-auto max-w-sm" src="images/distrobox.png" alt="Distrobox" />
+			</div>
+			<div>
+				<h1 class="h3">Distrobox</h1>
+				<p class="text-l text-balance mt-5 text-left">Aeon takes customization to a new level with its support for Distrobox. This innovative tool allows you to effortlessly run entire Linux distributions within your existing Aeon environment. Imagine having access to specific applications or tools from another distro without needing to switch systems entirely. Distrobox makes this a reality.
+					Here's how Distrobox empowers Aeon users:
+						Experimentation without Risk: Want to try a new distro or access software unavailable on Aeon? </p>
+			</div>
+			<div class="mx-2 flex justify-center items-center">
+				<img class="rounded-2xl shadow-xl h-auto max-w-sm bg-slate-300" src="images/microos.png" alt="Distrobox" />
+			</div>
+			<div>
+				<h1 class="h3">MicroOS</h1>
+				<p class="text-l text-balance mt-5 text-left">Aeon takes customization to a new level with its support for Distrobox. This innovative tool allows you to effortlessly run entire Linux distributions within your existing Aeon environment. Imagine having access to specific applications or tools from another distro without needing to switch systems entirely. Distrobox makes this a reality.
+					Here's how Distrobox empowers Aeon users:
+						Experimentation without Risk: Want to try a new distro or access software unavailable on Aeon? </p>
+			</div>
+			
+		</div>
+	</div>
+</div>
+<hr class="mt-16">
+<div class="container mx-auto justify-center items-center mt-16">
+	<h2 class="h2">
+		<span
+			class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+			>Further Information</span
+		>
+	</h2>
+	<div class="space-y-10 text-left flex flex-col items-center mt-10">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+			<div class="card hover:shadow-lg mx-2">
+				<header class="card-header flex flex-col items-center p-4">
+				  <div class="h-14 w-14 overflow-hidden transform transition duration-300 ease-in-out hover:rotate-10">
+					<img class="object-cover h-full w-full" src="images/wiki.svg" alt="" />
+				  </div>
+				  <h3 class=" text-xl font-bold mt-4">Technical Details</h3>
+				  <p class=" text-base mt-2 text-balance">For technical details and how-tos, head over to the Wiki</p>
+				  <a class="btn variant-filled mt-5" href="http://youtube.com">Button</a>
+				</header>
+			</div>
+			<div class="card hover:shadow-lg mx-2">
+				<header class="card-header flex flex-col items-center p-4">
+				  <div class="h-14 w-14 overflow-hidden transform transition duration-300 ease-in-out hover:rotate-10">
+					<img class="object-cover h-full w-full" src="images/video.svg" alt="" />
+				  </div>
+				  <h3 class=" text-xl font-bold mt-4">Project Origins</h3>
+				  <p class=" text-base mt-2 text-balance text-center">For a deep dive on the origins and use-cases for Aeon, check out this video: </p>
+				  <button
+				class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5"
+				>Learn More</button>
+				</header>
 			</div>
 		</div>
 	</div>
 </div>
+
+
+
 
 <style lang="postcss">
 	figure {
@@ -184,4 +242,6 @@
 			@apply bg-primary-700/70;
 		}
 	}
+
+	
 </style>
