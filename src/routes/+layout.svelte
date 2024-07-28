@@ -9,7 +9,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<img class="w-6 h-6" src="/images/logo.svg" alt="Your Company Logo">
+				<img class="w-6 h-6" src="images/logo.svg" alt="Aeon Logo">
 				<strong class="text-xl uppercase ml-2">Aeon</strong>
 			</svelte:fragment>
 			
