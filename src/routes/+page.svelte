@@ -1,6 +1,5 @@
 <script>
 	import GlanceCard from '../lib/GlanceCard.svelte';
-	export const prerender = true
 </script>
 
 <div class="container h-screen mx-auto flex justify-center items-center">
