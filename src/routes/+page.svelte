@@ -104,8 +104,8 @@
 				>
 			</h2>
 			<p class="text-xl mt-5">
-				Aeon is great for anyone who wants a computer that <a
-					class="font-semibold underline decoration-primary-500">"just works"</a
+				Aeon is great for anyone who wants a computer that <p1
+					class="font-semibold underline decoration-primary-500">"just works"</p1
 				>; in particular it is perfect for the "lazy developer" who prefers to spend their time
 				getting things done while letting their desktop take care of itself. The OS is static,
 				automated and reliable, letting you focus on your apps and work.
@@ -247,7 +247,6 @@
 		@apply flex relative flex-col items-center justify-center; /* Center logo */
 	}
 
-	figure svg,
 	.img-bg {
 		@apply w-48 h-48 md:w-80 md:h-80 rounded-full; /* Adjust size as needed */
 	}
