@@ -45,7 +45,7 @@
 		<h2 class="text-4xl" id="explore">At a Glance</h2>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 			<GlanceCard
-				header="Highly Dependable"
+				header="Automatic Maintenance"
 				content="Daily system updates happen automatically while you work. Your running system is not
 					affected until you reboot, keeping your workday consistent and avoiding any unexpected
 					issues with your apps."
@@ -53,38 +53,38 @@
 				image="images/repairing-icon.svg"
 			/>
 			<GlanceCard
-				header="Enhanced Security"
-				content="Aeon prioritizes user safety with built-in security features like application sandboxing and hardware encryption, keeping your data and system protected."
+				header="Highly Dependable"
+				content="Aeon prioritizes stability and dependability at it's core. The static nature of the OS and Atomic Updates ensure you always have a working system when you need it. "
 				alt="security shield"
 				image="images/lock.svg"
 			/>
 
 			<GlanceCard
-				header="Automatic Maintenance"
-				content="Experience a smooth and responsive user experience with Aeon's optimized codebase and efficient resource management, allowing you to work without lags."
+				header="Minimal Yet Functional"
+				content="The base system is kept small and simple, but with everything you need for getting straight on with your tasks - including programming, gaming, media production and clerical work. "
 				alt="speedometer"
 				image="images/compare-arrow-icon.svg"
 			/>
 
 			<GlanceCard
-				header="Developer Focused"
-				content="Tailor your workspace to your preferences. Aeon offers extensive customization options for layouts, themes, and shortcuts, letting you personalize your work environment."
+				header="Respects your time"
+				content="Aeon is the operating system you won't have to manage. It is set up in a way, to get you started easily and does it's own maintenance in the background."
 				alt="settings icon"
-				image="images/atomic-updates.svg"
+				image="images/time.svg"
 			/>
 
 			<GlanceCard
-				header=""
-				content="Effortlessly switch between tasks and applications with Aeon's intuitive window management and efficient task switching features, boosting your productivity."
+				header="Developer Friendly"
+				content="Aeon ships with tooling that enables Developers to maintain multiple environments easily and experiment without risk."
 				alt="multiple windows"
 				image="images/atomic-updates.svg"
 			/>
 
 			<GlanceCard
 				header="Proudly Oppinionated"
-				content="Aeon is set up to get you started right away."
+				content="We think that Aeon is a great desktop for most people. With sane defaults and great reliability, we offer a great solution to those, who want to get stuff done instead of endlessly tinkering."
 				alt="future concept"
-				image="images/atomic-updates.svg"
+				image="images/checkmark.svg"
 			/>
 		</div>
 	</div>
@@ -96,7 +96,7 @@
 			<h2 class="text-5xl">
 				<span
 					class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
-					>Based On Trusted Tooling</span
+					>Built On Trusted Tooling</span
 				>
 			</h2>
 			<p class="text-2xl mt-5">
@@ -209,7 +209,7 @@ access software unavailable on Aeon?"
 		<div class="space-y-10 text-left flex flex-col items-center">
 			<article class="text-wrap mx-5">
 				<h2 class="text-5xl text-center text-primary-500">
-						Let Aeon handle it for you
+						Never worry about your System
 				</h2>
 				<p class="text-2xl mt-10">
 					Sit back, relax, and let Aeon take care of the technical details. Our static nature means
