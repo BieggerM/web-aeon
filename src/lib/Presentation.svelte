@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { fade, fly } from 'svelte/transition';
+    import { fly } from 'svelte/transition';
     import { quintOut } from 'svelte/easing';
     import { inview } from 'svelte-inview';
 
@@ -8,10 +8,8 @@
     // Exported variables for image data
     export let imageSrc = "images/aeondesktop.png"; // Default path
     export let imageAlt = "Gnome Desktop";
-    export let imageCaption = "Aeon Desktop Powered by Gnome";
+
     // Exported variables for content
-    export let heading = "Gnome Desktop";
-    export let text = "For a user-friendly and intuitive desktop experience, Aeon leverages the power of GNOME.GNOME is a popular and widely-used desktop environment known for its clean aesthetics, intuitive layout, and focus on user productivity. With GNOME, you'll enjoy a clutter-free workspace.";
 </script>
 
     <div class="mx-2 mt-10">

@@ -11,7 +11,7 @@
       <div class="h-14 w-14 overflow-hidden transform transition duration-300 ease-in-out hover:rotate-10">
         <img class="object-cover h-full w-auto" src="{image}" alt="{alt}" />
       </div>
-      <h3 class="h3 font-bold mt-4">{header}</h3>
-      <p class="text-lg mt-2">{content} </p>
+      <h3 class="text-2xl font-bold mt-4">{header}</h3>
+      <p class="text-xl mt-2">{content} </p>
     </header>
   </div>

@@ -115,9 +115,6 @@
 			<Presentation
 				imageSrc="images/aeondesktop.png"
 				imageAlt="Gnome Desktop"
-				imageCaption="Aeon Desktop Powered by Gnome"
-				heading="Gnome Desktop"
-				text=" "
 			/>
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Gnome Desktop</h1>
@@ -143,13 +140,6 @@
 			<Presentation
 				imageSrc="images/flat.png"
 				imageAlt="Flatpak"
-				imageCaption="Flatpak Applications inside"
-				heading="Flatpak Applications"
-				text="Aeon provides a streamlined approach to application management through its
-integration with Flatpak. Flatpak is a modern technology that simplifies the
-installation and updates of applications. Unlike traditional methods, Flatpak
-packages applications as self-contained units, including all their necessary
-dependencies. This offers several benefits for Aeon users."
 			/>
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Flatpak Applications</h1>
@@ -176,13 +166,6 @@ dependencies. This offers several benefits for Aeon users."
 			<Presentation
 				imageSrc="images/distro_tmux.png"
 				imageAlt="Distrobox"
-				heading="Distrobox"
-				text="Aeon takes customization to a new level with its support for Distrobox. This innovative
-tool allows you to effortlessly run entire Linux distributions within your existing Aeon
-environment. Imagine having access to specific applications or tools from another distro
-without needing to switch systems entirely. Distrobox makes this a reality. Here's how
-Distrobox empowers Aeon users: Experimentation without Risk: Want to try a new distro or
-access software unavailable on Aeon?"
 			/>
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Distrobox</h1>
