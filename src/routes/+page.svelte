@@ -1,9 +1,7 @@
 <script lang="ts">
+
 	import GlanceCard from '../lib/GlanceCard.svelte';
 	import Presentation from '$lib/Presentation.svelte';
-
-	let isInView: boolean;
-	let flatpackInView: boolean;
 </script>
 
 <div class="container h-screen mx-auto flex justify-center items-center">
@@ -27,24 +25,24 @@
 			<p class="text-2xl">The linux desktop for people who want to "get stuff done".</p>
 		</div>
 		<div class="flex justify-center space-x-4 mt-4">
-			<button
+			<a href="#explore"
 				class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700"
-				>Explore</button
+				>Explore</a
 			>
-			<button
+			<a href="https://download.opensuse.org/tumbleweed/appliances/Aeon-Installer.x86_64.raw.xz"
 				class="px-4 py-2 bg-secondary-200 text-gray-700 font-bold rounded shadow-sm hover:bg-secondary-300"
-				>Download</button
+				>Download</a
 			>
-			<button
+			<a href="https://en.opensuse.org/Portal:Aeon"
 				class="px-4 py-2 bg-transparent border border-primary-500 text-primary-500 font-bold rounded hover:bg-blue-50"
-				>Docs</button
+				>Docs</a
 			>
 		</div>
 	</div>
 </div>
 <div class="container mx-auto justify-center items-center">
 	<div class="space-y-10 text-left flex flex-col items-center">
-		<h2 class="h2">At a Glance</h2>
+		<h2 class="text-4xl" id="explore">At a Glance</h2>
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 			<GlanceCard
 				header="Highly Dependable"
@@ -65,7 +63,7 @@
 				header="Automatic Maintenance"
 				content="Experience a smooth and responsive user experience with Aeon's optimized codebase and efficient resource management, allowing you to work without lags."
 				alt="speedometer"
-				image="images/atomic-updates.svg"
+				image="images/compare-arrow-icon.svg"
 			/>
 
 			<GlanceCard
@@ -89,16 +87,10 @@
 				image="images/atomic-updates.svg"
 			/>
 		</div>
-		<div class="flex justify-center space-x-4">
-			<button
-				class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5"
-				>Learn More</button
-			>
-		</div>
 	</div>
 </div>
 
-<div class="container mx-auto justify-center mt-14">
+<div class="container mx-auto justify-center mt-24">
 	<div class="space-y-10 text-left flex flex-col items-center">
 		<article class="text-wrap mx-5">
 			<h2 class="text-5xl">
@@ -216,11 +208,8 @@ access software unavailable on Aeon?"
 	<div class="container mx-auto justify-center mt-14">
 		<div class="space-y-10 text-left flex flex-col items-center">
 			<article class="text-wrap mx-5">
-				<h2 class="text-5xl text-center">
-					<span
-						class="bg-gradient-to-br from-primary-500 to-secondary-500 bg-clip-text text-transparent box-decoration-clone"
-						>Let Aeon handle it for you</span
-					>
+				<h2 class="text-5xl text-center text-primary-500">
+						Let Aeon handle it for you
 				</h2>
 				<p class="text-2xl mt-10">
 					Sit back, relax, and let Aeon take care of the technical details. Our static nature means
@@ -230,23 +219,51 @@ access software unavailable on Aeon?"
 				<div class="py-12 md:px-16 text-2xl">
 					<ul class="list-disc space-y-4 pl-2 md:pl-12">
 						<li class="flex items-center">
-							<img src="images/checkmark.svg" alt="Checkmark" class="w-12 h-12 md:w-8 md:h-8 text-green-500 mr-2" />
-							<span>Aeon leverages transactional updates and btrfs snapshots for atomic, risk-free system updates.</span>
+							<img
+								src="images/checkmark.svg"
+								alt="Checkmark"
+								class="w-12 h-12 md:w-8 md:h-8 mr-2"
+							/>
+							<span
+								>Aeon leverages transactional updates and btrfs snapshots for atomic, risk-free
+								system updates.</span
+							>
 						</li>
-				
-						<li class="flex items-center ">
-							<img src="images/checkmark.svg" alt="Checkmark" class="w-12 h-12 md:w-8 md:h-8 text-green-500 mr-2" />
-							<span>In the event of a failed update, the system seamlessly rolls back to the previous snapshot, ensuring your system remains bootable and functional.</span>
-						</li>
-				
-						<li class="flex items-center ">
-							<img src="images/checkmark.svg" alt="Checkmark" class="w-12 h-12 md:w-8 md:h-8 text-green-500 mr-2" />
-							<span>Snapshots include your configuration in /etc, empowering you to easily revert configuration changes if needed.</span>
-						</li>
-				
+
 						<li class="flex items-center">
-							<img src="images/checkmark.svg" alt="Checkmark" class="w-12 h-12 md:w-8 md:h-8 text-green-500 mr-2" />
-							<span>Transactional updates support both your existing RPM packages and most packages in Aeon's repositories.</span>
+							<img
+								src="images/checkmark.svg"
+								alt="Checkmark"
+								class="w-12 h-12 md:w-8 md:h-8 mr-2"
+							/>
+							<span
+								>In the event of a failed update, the system seamlessly rolls back to the previous
+								snapshot, ensuring your system remains bootable and functional.</span
+							>
+						</li>
+
+						<li class="flex items-center">
+							<img
+								src="images/checkmark.svg"
+								alt="Checkmark"
+								class="w-12 h-12 md:w-8 md:h-8 mr-2"
+							/>
+							<span
+								>Snapshots include your configuration in /etc, empowering you to easily revert
+								configuration changes if needed.</span
+							>
+						</li>
+
+						<li class="flex items-center">
+							<img
+								src="images/checkmark.svg"
+								alt="Checkmark"
+								class="w-12 h-12 md:w-8 md:h-8 mr-2"
+							/>
+							<span
+								>Transactional updates support both your existing RPM packages and most packages in
+								Aeon's repositories.</span
+							>
 						</li>
 					</ul>
 				</div>
