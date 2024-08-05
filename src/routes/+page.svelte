@@ -1,5 +1,4 @@
 <script lang="ts">
-
 	import GlanceCard from '../lib/GlanceCard.svelte';
 	import Presentation from '$lib/Presentation.svelte';
 </script>
@@ -25,15 +24,18 @@
 			<p class="text-2xl">The linux desktop for people who want to "get stuff done".</p>
 		</div>
 		<div class="flex justify-center space-x-4 mt-4">
-			<a href="#explore"
+			<a
+				href="#explore"
 				class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700"
 				>Explore</a
 			>
-			<a href="https://download.opensuse.org/tumbleweed/appliances/Aeon-Installer.x86_64.raw.xz"
+			<a
+				href="https://download.opensuse.org/tumbleweed/appliances/Aeon-Installer.x86_64.raw.xz"
 				class="px-4 py-2 bg-secondary-200 text-gray-700 font-bold rounded shadow-sm hover:bg-secondary-300"
 				>Download</a
 			>
-			<a href="https://en.opensuse.org/Portal:Aeon"
+			<a
+				href="https://en.opensuse.org/Portal:Aeon"
 				class="px-4 py-2 bg-transparent border border-primary-500 text-primary-500 font-bold rounded hover:bg-blue-50"
 				>Docs</a
 			>
@@ -112,10 +114,7 @@
 <div class="container mx-auto mt-16">
 	<div class="space-y-5 text-left flex flex-col">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente space-y-5">
-			<Presentation
-				imageSrc="images/aeondesktop.png"
-				imageAlt="Gnome Desktop"
-			/>
+			<Presentation imageSrc="images/aeondesktop.png" imageAlt="Gnome Desktop" />
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Gnome Desktop</h1>
 				<h1 class="text-3xl text-primary-500 mt-3">is elegantly practical</h1>
@@ -137,10 +136,7 @@
 			</article>
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente space-y-5">
-			<Presentation
-				imageSrc="images/flat.png"
-				imageAlt="Flatpak"
-			/>
+			<Presentation imageSrc="images/flat.png" imageAlt="Flatpak" />
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Flatpak Applications</h1>
 				<h1 class="text-3xl text-primary-500 mt-3">as first class citizen</h1>
@@ -163,10 +159,7 @@
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente space-y-5">
-			<Presentation
-				imageSrc="images/distro_tmux.png"
-				imageAlt="Distrobox"
-			/>
+			<Presentation imageSrc="images/distro_tmux.png" imageAlt="Distrobox" />
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Distrobox</h1>
 				<h1 class="text-3xl text-primary-500 mt-3">for full flexibility</h1>
@@ -191,9 +184,7 @@
 	<div class="container mx-auto justify-center mt-14">
 		<div class="space-y-10 text-left flex flex-col items-center">
 			<article class="text-wrap mx-5">
-				<h2 class="text-5xl text-center text-primary-500">
-						Never worry about your System
-				</h2>
+				<h2 class="text-5xl text-center text-primary-500">Never worry about your System</h2>
 				<p class="text-2xl mt-10">
 					Sit back, relax, and let Aeon take care of the technical details. Our static nature means
 					your Computer stays lightning-fast and secure, while automatic transactional updates
@@ -276,8 +267,8 @@
 						For technical details and how-tos, head over to the Wiki
 					</p>
 					<a
-						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5" href="https://en.opensuse.org/Portal:Aeon"
-						>Learn More</a
+						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5"
+						href="https://en.opensuse.org/Portal:Aeon">Learn More</a
 					>
 				</header>
 			</div>
@@ -293,19 +284,19 @@
 						For a deep dive on the origins and use-cases for Aeon, check out this video:
 					</p>
 					<a
-						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5" href="https://www.youtube.com/watch?v=lKYLF1tA4Ik"
-						>Learn More</a
+						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5"
+						href="https://www.youtube.com/watch?v=lKYLF1tA4Ik">Learn More</a
 					>
 				</header>
 			</div>
 		</div>
 	</div>
 	<p class="text-2xl mt-14 text-center">Connect with us:</p>
-	<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-1 mt-10">
+	<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-1 mt-10 mx-2">
 		<a class="logo-item" href="https://t.me/openSUSE_Aeon">
 			<span>
 				<div class="h-12 w-12">
-					<img src="images/telegram.png" alt="telegram-logo">
+					<img src="images/telegram.png" alt="telegram-logo" />
 				</div>
 			</span>
 			<span>Telegram</span>
@@ -313,7 +304,7 @@
 		<a class="logo-item" href="https://matrix.to/#/#aeon:opensuse.org">
 			<span>
 				<div class="h-12 w-12">
-					<img src="images/matrix.png" alt="matrix-logo">
+					<img src="images/matrix.png" alt="matrix-logo" />
 				</div>
 			</span>
 			<span>Matrix</span>
@@ -321,19 +312,15 @@
 		<a class="logo-item" href="https://en.opensuse.org/openSUSE:Submitting_bug_reports">
 			<span>
 				<div class="h-12 w-12">
-					<img src="images/bug-icon.svg" alt="bug-icon">
+					<img src="images/bug-icon.svg" alt="bug-icon" />
 				</div>
 			</span>
 			<span>Report a Bug</span>
 		</a>
 	</div>
 </div>
-<div class="container mx-auto justify-center items-center mt-16">
-	
-	
-	
-	
-</div>
+<div class="container mx-auto justify-center items-center mt-16"></div>
+
 <style lang="postcss">
 	figure {
 		@apply flex relative flex-col items-center justify-center; /* Center logo */
