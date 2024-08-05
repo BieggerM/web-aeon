@@ -275,9 +275,9 @@
 					<p class=" text-2xl mt-2 text-balance text-center">
 						For technical details and how-tos, head over to the Wiki
 					</p>
-					<button
-						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5"
-						>Learn More</button
+					<a
+						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5" href="https://en.opensuse.org/Portal:Aeon"
+						>Learn More</a
 					>
 				</header>
 			</div>
@@ -292,16 +292,48 @@
 					<p class=" text-2xl mt-2 text-balance text-center">
 						For a deep dive on the origins and use-cases for Aeon, check out this video:
 					</p>
-					<button
-						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5"
-						>Learn More</button
+					<a
+						class="px-4 py-2 bg-primary-500 text-white font-bold rounded shadow-sm hover:bg-primary-700 mt-5" href="https://www.youtube.com/watch?v=lKYLF1tA4Ik"
+						>Learn More</a
 					>
 				</header>
 			</div>
 		</div>
 	</div>
+	<p class="text-2xl mt-14 text-center">Connect with us:</p>
+	<div class="logo-cloud grid-cols-1 lg:!grid-cols-3 gap-1 mt-10">
+		<a class="logo-item" href="https://t.me/openSUSE_Aeon">
+			<span>
+				<div class="h-12 w-12">
+					<img src="images/telegram.png" alt="telegram-logo">
+				</div>
+			</span>
+			<span>Telegram</span>
+		</a>
+		<a class="logo-item" href="https://matrix.to/#/#aeon:opensuse.org">
+			<span>
+				<div class="h-12 w-12">
+					<img src="images/matrix.png" alt="matrix-logo">
+				</div>
+			</span>
+			<span>Matrix</span>
+		</a>
+		<a class="logo-item" href="https://en.opensuse.org/openSUSE:Submitting_bug_reports">
+			<span>
+				<div class="h-12 w-12">
+					<img src="images/bug-icon.svg" alt="bug-icon">
+				</div>
+			</span>
+			<span>Report a Bug</span>
+		</a>
+	</div>
 </div>
-
+<div class="container mx-auto justify-center items-center mt-16">
+	
+	
+	
+	
+</div>
 <style lang="postcss">
 	figure {
 		@apply flex relative flex-col items-center justify-center; /* Center logo */
