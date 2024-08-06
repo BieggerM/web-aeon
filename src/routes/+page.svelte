@@ -124,11 +124,22 @@
 </div>
 <div class="container mx-auto">
 	<div class="text-left flex flex-col">
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente mt-10">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente mt-14">
 			<Presentation imageSrc="images/aeondesktop.png" imageAlt="Gnome Desktop" />
 			<article class="mx-5 md:p-32">
-				<h1 class="text-5xl text-primary-500">Gnome Desktop</h1>
-				<h1 class="text-3xl text-primary-500 mt-3">is elegantly practical</h1>
+				<h1 class="text-5xl">
+					<span
+						class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+					>
+						Gnome Desktop</span
+					>
+				</h1>
+				<h1 class="text-3xl text-primary-500 mt-3">
+					<span
+						class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+						>is elegantly practical</span
+					>
+				</h1>
 				<p class="text-2xl text-left mt-6">
 					For a user-friendly and intuitive desktop experience, Aeon leverages the power of GNOME.
 				</p>
@@ -146,45 +157,64 @@
 				</p>
 			</article>
 		</div>
-		
 	</div>
 </div>
 <section class="bg-gradient-to-tr from-primary-700 to-surface-800 bg-gradient-tilted mt-10">
 	<div class="container mx-auto">
 		<div class="text-left flex flex-col">
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente py-14">
-			<Presentation imageSrc="images/flat.png" imageAlt="Flatpak" />
-			<article class="mx-5 md:p-32">
-				<h1 class="text-5xl text-primary-500">Flatpak Applications</h1>
-				<h1 class="text-3xl text-primary-500 mt-3">as first class citizen</h1>
-				<p class="text-2xl text-left mt-6">
-					Flatpak applications are a game-changer in the Linux world. They offer a streamlined way
-					to package and distribute software, ensuring compatibility across various Linux
-					distributions.
-				</p>
-				<p class="text-2xl text-left mt-6">
-					This means you no longer have to worry about dependency issues or whether an app will run
-					on your specific distro. Flatpaks are self-contained, bundling all the necessary libraries
-					and dependencies, making them easy to install and manage.
-				</p>
-				<p class="text-2xl text-left mt-6">
-					Aeon, recognizing the convenience and versatility of Flatpaks, wholeheartedly embraces
-					them as first-class citizens, offering seamless integration and support within its
-					ecosystem.
-				</p>
-			</article>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente py-14">
+				<Presentation imageSrc="images/flat.png" imageAlt="Flatpak" />
+				<article class="mx-5 md:p-32">
+					<h1 class="text-5xl text-primary-500">
+						<span
+							class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+							>Flatpak Applications</span
+						>
+					</h1>
+					<h1 class="text-3xl text-primary-500 mt-3">
+						<span
+							class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+							>as first class citizen</span
+						>
+					</h1>
+					<p class="text-2xl text-left mt-6">
+						Flatpak applications are a game-changer in the Linux world. They offer a streamlined way
+						to package and distribute software, ensuring compatibility across various Linux
+						distributions.
+					</p>
+					<p class="text-2xl text-left mt-6">
+						This means you no longer have to worry about dependency issues or whether an app will
+						run on your specific distro. Flatpaks are self-contained, bundling all the necessary
+						libraries and dependencies, making them easy to install and manage.
+					</p>
+					<p class="text-2xl text-left mt-6">
+						Aeon, recognizing the convenience and versatility of Flatpaks, wholeheartedly embraces
+						them as first-class citizens, offering seamless integration and support within its
+						ecosystem.
+					</p>
+				</article>
+			</div>
 		</div>
 	</div>
-</div>
-	</section>	
+</section>
 
 <div class="container mx-auto">
 	<div class="text-left flex flex-col">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente my-10">
 			<Presentation imageSrc="images/distro_tmux.png" imageAlt="Distrobox" />
 			<article class="mx-5 md:p-32">
-				<h1 class="text-5xl text-primary-500">Distrobox</h1>
-				<h1 class="text-3xl text-primary-500 mt-3">for full flexibility</h1>
+				<h1 class="text-5xl text-primary-500">
+					<span
+						class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+						>Distrobox</span
+					>
+				</h1>
+				<h1 class="text-3xl text-primary-500 mt-3">
+					<span
+						class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+						>for full flexibility</span
+					>
+				</h1>
 				<p class="text-2xl text-left mt-6">
 					Distrobox is a revolutionary tool that takes customization to a new level by seamlessly
 					integrating with Aeon. It empowers users to effortlessly run entire Linux distributions
@@ -202,11 +232,16 @@
 		</div>
 	</div>
 </div>
-<section class="bg-gradient-to-br  from-gray-800 to-surface-800 py-8 md:px-24">
-	<div class="container mx-auto justify-center mt-14">
+<section class="py-8 md:px-24">
+	<div class="container mx-auto justify-center ">
 		<div class="space-y-10 text-left flex flex-col items-center">
 			<article class="text-wrap mx-5">
-				<h2 class="text-5xl text-center text-primary-500">Maintenance Free Desktop</h2>
+				<h2 class="text-5xl text-primary-500">
+					<span
+						class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone"
+						>Maintenance Free Desktop</span
+					>
+				</h2>
 				<p class="text-2xl mt-10">
 					Kick back, relax, and let Aeon take care of the technical details. Our static nature means
 					your Computer stays lightning-fast and secure, while automatic transactional updates
@@ -268,15 +303,19 @@
 	</div>
 </section>
 
-<div class="container mx-auto justify-center items-center mt-16">
-	<h2 class="text-5xl text-center">
+<div class="container mx-auto justify-center items-center">
+	<h2 class="text-5xl">
 		<span
 			class="bg-gradient-to-br from-primary-500 to-secondary-400 bg-clip-text text-transparent box-decoration-clone mx-5"
 			>Further Information</span
 		>
 	</h2>
 	<div class="container mt-10">
-		<a href="https://www.reddit.com/r/AeonDesktop/comments/1edi3tr/aeon_rc3_released/" target="_blank" rel="noopener noreferrer">
+		<a
+			href="https://www.reddit.com/r/AeonDesktop/comments/1edi3tr/aeon_rc3_released/"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
 			<div
 				class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 flex items-center space-x-4 mx-2"
 				role="alert"
@@ -300,8 +339,8 @@
 					>
 						<img class="object-cover h-full w-full" src="images/wiki.svg" alt="" />
 					</div>
-					<h3 class=" text-4xl font-bold mt-4">Technical Details</h3>
-					<p class=" text-2xl mt-2 text-balance text-center">
+					<h3 class=" text-3xl font-bold mt-4">Technical Details</h3>
+					<p class=" text-xl mt-2 text-balance text-center">
 						For technical details and how-tos, head over to the Wiki
 					</p>
 					<a
@@ -317,8 +356,8 @@
 					>
 						<img class="object-cover h-full w-full" src="images/video.svg" alt="" />
 					</div>
-					<h3 class=" text-4xl font-bold mt-4">Project Origins</h3>
-					<p class=" text-2xl mt-2 text-balance text-center">
+					<h3 class=" text-3xl font-bold mt-4">Project Origins</h3>
+					<p class=" text-xl mt-2 text-balance text-center">
 						For a deep dive on the origins and use-cases for Aeon, check out this video:
 					</p>
 					<a
@@ -409,12 +448,11 @@
 
 	/* Add this style rule to your CSS */
 	.bg-gradient-tilted {
-	transform: skewY(4deg); /* Match this angle to the negative of the gradient angle */
+		transform: skewY(4deg); /* Match this angle to the negative of the gradient angle */
 	}
 
 	/* Prevent content inside the section from being skewed */
 	.bg-gradient-tilted > .container {
-	transform: skewY(-4deg); /* Counteract the skew of the parent */
+		transform: skewY(-4deg); /* Counteract the skew of the parent */
 	}
-
 </style>
