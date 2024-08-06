@@ -12,7 +12,7 @@
     // Exported variables for content
 </script>
 
-    <div class="mx-2 mt-10">
+    <div class="mx-2">
         <div
 				class="wrapper"
 				use:inview={{ unobserveOnEnter: false, rootMargin: '20%' }}

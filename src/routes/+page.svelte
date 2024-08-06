@@ -122,9 +122,9 @@
 		</article>
 	</div>
 </div>
-<div class="container mx-auto mt-16">
-	<div class="space-y-5 text-left flex flex-col">
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente space-y-5">
+<div class="container mx-auto">
+	<div class="text-left flex flex-col">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente mt-10">
 			<Presentation imageSrc="images/aeondesktop.png" imageAlt="Gnome Desktop" />
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Gnome Desktop</h1>
@@ -146,7 +146,13 @@
 				</p>
 			</article>
 		</div>
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente space-y-5">
+		
+	</div>
+</div>
+<section class="bg-gradient-to-tr from-primary-700 to-surface-800 bg-gradient-tilted mt-10">
+	<div class="container mx-auto">
+		<div class="text-left flex flex-col">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente py-14">
 			<Presentation imageSrc="images/flat.png" imageAlt="Flatpak" />
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Flatpak Applications</h1>
@@ -168,8 +174,13 @@
 				</p>
 			</article>
 		</div>
+	</div>
+</div>
+	</section>	
 
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente space-y-5">
+<div class="container mx-auto">
+	<div class="text-left flex flex-col">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-cente my-10">
 			<Presentation imageSrc="images/distro_tmux.png" imageAlt="Distrobox" />
 			<article class="mx-5 md:p-32">
 				<h1 class="text-5xl text-primary-500">Distrobox</h1>
@@ -191,13 +202,13 @@
 		</div>
 	</div>
 </div>
-<section class="bg-gradient-to-br from-gray-800 to-surface-800 py-8 md:px-24 mt-14">
+<section class="bg-gradient-to-br  from-gray-800 to-surface-800 py-8 md:px-24">
 	<div class="container mx-auto justify-center mt-14">
 		<div class="space-y-10 text-left flex flex-col items-center">
 			<article class="text-wrap mx-5">
-				<h2 class="text-5xl text-center text-primary-500">Never worry about your System</h2>
+				<h2 class="text-5xl text-center text-primary-500">Maintenance Free Desktop</h2>
 				<p class="text-2xl mt-10">
-					Sit back, relax, and let Aeon take care of the technical details. Our static nature means
+					Kick back, relax, and let Aeon take care of the technical details. Our static nature means
 					your Computer stays lightning-fast and secure, while automatic transactional updates
 					ensure your System is always fresh and up-to-date.
 				</p>
@@ -395,4 +406,15 @@
 			@apply bg-primary-700/70;
 		}
 	}
+
+	/* Add this style rule to your CSS */
+	.bg-gradient-tilted {
+	transform: skewY(4deg); /* Match this angle to the negative of the gradient angle */
+	}
+
+	/* Prevent content inside the section from being skewed */
+	.bg-gradient-tilted > .container {
+	transform: skewY(-4deg); /* Counteract the skew of the parent */
+	}
+
 </style>
