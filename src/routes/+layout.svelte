@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-
 </script>
 
 <!-- App Shell -->
@@ -26,3 +25,4 @@
 	<slot />
 	<footer class="bg-surface-600 p-4 mt-5"> © Aeon contributors </footer>
 </AppShell>
+

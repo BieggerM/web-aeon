@@ -23,6 +23,7 @@
 		<div class="flex justify-center space-x-2 mx-2">
 			<p class="text-2xl">The linux desktop for people who want to "get stuff done".</p>
 		</div>
+
 		<div class="flex justify-center space-x-4 mt-4">
 			<a
 				href="#explore"
@@ -40,8 +41,18 @@
 				>Docs</a
 			>
 		</div>
+		<aside class="alert variant-ghost-warning mx-2">
+			<div class="border-l-4 border-yellow-500 p-4" role="alert">
+				<p class="font-bold">Release Candidate</p>
+				<p>
+					Aeon is still in Release Candidate state. Expect updates and refinements before the final
+					release.
+				</p>
+			</div>
+		</aside>
 	</div>
 </div>
+
 <div class="container mx-auto justify-center items-center">
 	<div class="space-y-10 text-left flex flex-col items-center">
 		<h2 class="text-4xl" id="explore">At a Glance</h2>
@@ -253,6 +264,22 @@
 			>Further Information</span
 		>
 	</h2>
+	<div class="container mt-10">
+		<a href="https://www.reddit.com/r/AeonDesktop/comments/1edi3tr/aeon_rc3_released/" target="_blank" rel="noopener noreferrer">
+			<div
+				class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 flex items-center space-x-4 mx-2"
+				role="alert"
+			>
+				<span class="text-4xl">🎉</span>
+				<div>
+					<p class="font-bold text-lg">RC3 Released!</p>
+					<p>
+						Aeon Release Candidate 3 is now available. Explore the latest improvements and features!
+					</p>
+				</div>
+			</div>
+		</a>
+	</div>
 	<div class="space-y-10 text-left flex flex-col items-center mt-10">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			<div class="card hover:shadow-lg mx-2">
